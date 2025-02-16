@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap");
+* {
+  font-family: "Poppins";
+}
+body {
+  height: 100vh;
+  background-color: #1e1c2a;
+
+  padding: 100px 120px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: #1e1c2a;
+  height: 100px;
+  gap: 850px;
+  top: 0;
+  width: 100%;
+}
+.food {
+  color: #ff702a;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: 600;
+}
+.links a {
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+a:hover {
+  color: #ff702a;
+}
+.links {
+  display: flex;
+  align-content: center;
+  gap: 70px;
+}
+.container1 {
+  display: flex;
+  gap: 120px;
+  margin: 208px 0px 208px 100px;
+}
+.topic1 {
+  padding-top: 130px;
+}
+.wdc {
+  color: #ff702a;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 80px 0 20px 0;
+}
+.ft {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+button {
+  background-color: #ff702a;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+  border-style: hidden;
+  width: 150px;
+  height: 40px;
+}
+.container2 {
+  display: flex;
+  gap: 80px;
+  padding: 208px 0 208px 200px;
+}
+.au {
+  color: #ff702a;
+  font-size: 20px;
+}
+.ws {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+.lo1 {
+  color: white;
+  margin: 10px 200px 10px 30px;
+  font-size: 20px;
+}
+.con2 {
+  padding-top: 100px;
+}
+.container3 {
+  padding: 208px 0;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+.fm {
+  color: #ff702a;
+  margin-bottom: 5px;
+  padding: 0 45%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.fp {
+  color: white;
+  font-weight: 600;
+  font-size: 36px;
+
+  padding: 0 620px;
+}
+.menu1,
+.menu2,
+.menu3 {
+  background-color: rgb(233, 191, 198);
+  border-radius: 5px;
+  justify-items: center;
+  align-items: center;
+  width: 350px;
+  height: 450px;
+}
+.menu p {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+.menu .tf {
+  font-weight: 100;
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 400;
+}
+.menu .price {
+  color: #ff702a;
+  font-weight: 100;
+  font-size: 14px;
+  font-weight: 400;
+}
+.menu img {
+  padding-top: 15px;
+}
+.container4 {
+  padding: 208px 0;
+}
+.process {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  gap: 70px;
+  padding: 50px 100px 0 100px;
+}
+.process img {
+  height: 90px;
+  width: 90px;
+}
+.order,
+.shipping,
+.delivery {
+  justify-content: center;
+  align-content: center;
+  width: 280px;
+  text-align: center;
+}
+.order p,
+.shipping p,
+.delivery p {
+  color: #ff702a;
+  font-weight: 600;
+  font-size: 19px;
+  margin: 0 0 20px 0;
+}
+.order span,
+.shipping span,
+.delivery span {
+  color: white;
+  font-size: 16px;
+}
+.container5 {
+  background-color: rgb(233, 191, 198);
+  border-radius: 10px;
+  width: 900px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  margin-left: 500px;
+}
+.container5 button {
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.container5 p {
+  margin: 60px 0 20px 0;
+}
+.container6 {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  margin-left: 50px;
+  padding: 208px 0;
+}
+.container6 a {
+  display: block;
+  text-decoration: none;
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.container6 p {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.line {
+  border: 1px solid #ff702a;
+  width: 40%;
+  margin-bottom: 10px;
+}
+.button a {
+  border: 1px solid #ff702a;
+  border-radius: 50%;
+}
+.circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ff702a;
+}
+.round {
+  display: flex;
+  gap: 10px;
+}
